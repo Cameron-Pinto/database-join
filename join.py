@@ -8,9 +8,9 @@ conn1 = odbc.connect(
     '''
     Driver={SQL Server Native Client 11.0};
     Server=SSQL;
-    Database=PROMAX;
-    UID=Sage300;
-    PWD=S@geLog1c;
+    Database=****;
+    UID=****;
+    PWD=******;
     '''
 )
 
@@ -18,9 +18,9 @@ conn1 = odbc.connect(
 conn2 = odbc.connect(
     '''
     Driver={SQL Server Native Client 11.0};
-    Description=WMS64;
-    Server=WESQL2;
-    Database=KoerberEdge;
+    Description=****;
+    Server=*****;
+    Database=****;
     trusted_connection=Yes
     '''
 )
